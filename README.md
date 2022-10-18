@@ -23,4 +23,8 @@ O **dotenv** permite a criação de variáveis de ambiente.
 Ele é um módulo de dependência que carrega variáveis de ambiente de um arquivo .env para process.env.
 As variáveis de ambiente ajudam a definir valores que não queremos codificar diretamente em nosso código fonte.
 
+## Projeto Online
+Acesse: https://backendmobile.vercel.app/
+Ou [![Faça o Deploy com Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fatecitu/backendMobile)
+
 
