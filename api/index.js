@@ -7,10 +7,10 @@ const app = express()
 const port = process.env.PORT || 3900
 
 app.use(cors())
-app.use(express.urlencoded({ extended: true })) //permite acentos na URL
+app.use(express.urlencoded({ extended: true })) //Analisa as requisições vindas via urlencoded payloads .
 app.use(express.json()) // Irá fazer o parse de arquivos JSON
     //Configura o favicon
-app.use('/favicon.ico', express.static('public/favicon.ico'))
+app.use('/favicon.ico', express.static('public/fatecitu.jpg'))
     //Rotas de conteúdo público
 app.use('/', express.static('public'))
     // Rotas do app
